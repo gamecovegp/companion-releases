@@ -6,7 +6,7 @@
 # Usage:    ./publish-emulators.sh          (uses REPO below)
 #           REPO=youracct/yourrepo ./publish-emulators.sh
 set -euo pipefail
-REPO="${REPO:-gamecove/companion-releases}"
+REPO="${REPO:-gamecovegp/companion-releases}"
 cd "$(dirname "$0")"
 
 # id | source APK filename (in this folder) | versionCode (tag suffix, must match the manifest)

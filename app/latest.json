@@ -2,7 +2,7 @@
   "_comment": "App self-update manifest for the GameCove Companion app. Fill this in AFTER you build the first Companion release APK (flutter build apk --release) and upload it as a GitHub release. Until then versionCode stays 0 so installed apps see no update. See README.md.",
   "versionCode": 0,
   "versionName": "0.0.0",
-  "url": "https://github.com/gamecove/companion-releases/releases/download/app-v1.0.0/app-release.apk",
+  "url": "https://github.com/gamecovegp/companion-releases/releases/download/app-v1.0.0/app-release.apk",
   "sha256": "",
   "minSupported": 0,
   "notes": "Placeholder - no Companion app release yet"

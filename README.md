@@ -8,8 +8,8 @@ compares versions to what's installed, and updates **only what's behind**.
 
 | Channel | App fetches | Then |
 |---|---|---|
-| App self-update | `https://gamecove.github.io/companion-releases/app/latest.json` | downloads the `url` APK, sha256-checks, prompts install |
-| Emulator updates | `https://gamecove.github.io/companion-releases/emulators/manifest.json` | per emulator: if blessed > installed, downloads `url`, sha256 + signer check, prompts install |
+| App self-update | `https://gamecovegp.github.io/companion-releases/app/latest.json` | downloads the `url` APK, sha256-checks, prompts install |
+| Emulator updates | `https://gamecovegp.github.io/companion-releases/emulators/manifest.json` | per emulator: if blessed > installed, downloads `url`, sha256 + signer check, prompts install |
 
 That base URL is **`updateBaseUrl`** in the app's `lib/config.dart`. If your GitHub account
 isn't `gamecove` or the repo isn't `companion-releases`, change it in **both** places:
@@ -27,12 +27,12 @@ package, versionCode, sha256, and signer of each APK in `/Apps` (extracted 2026-
 # 1. push this folder as the repo
 git init && git add -A && git commit -m "init companion-releases"
 git branch -M main
-git remote add origin git@github.com:gamecove/companion-releases.git
+git remote add origin git@github.com:gamecovegp/companion-releases.git
 git push -u origin main
 
 # 2. enable Pages: repo Settings -> Pages -> Deploy from branch -> main / (root)
 #    then confirm this loads:
-#    https://gamecove.github.io/companion-releases/emulators/manifest.json
+#    https://gamecovegp.github.io/companion-releases/emulators/manifest.json
 
 # 3. upload the current APKs to Releases (needs `gh`, logged in)
 ./publish-emulators.sh
@@ -55,7 +55,7 @@ git push -u origin main
 3. Cut the release (clean asset name + `<id>-<versionCode>` tag):
    ```bash
    cp NEW.apk /tmp/retroarch.apk
-   gh release create retroarch-<newVersionCode> /tmp/retroarch.apk -R gamecove/companion-releases
+   gh release create retroarch-<newVersionCode> /tmp/retroarch.apk -R gamecovegp/companion-releases
    ```
 4. Edit that emulator's **one** entry in `emulators/manifest.json` — `blessedVersionCode`,
    `versionName`, `url` (new tag), `sha256`, `signerSha256`. Leave every other entry untouched.
