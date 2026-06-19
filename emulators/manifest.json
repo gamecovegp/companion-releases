@@ -1,0 +1,137 @@
+{
+  "_comment": "Curated emulator update manifest for the GameCove Companion app. The app fetches THIS file from updateBaseUrl/emulators/manifest.json, compares each blessedVersionCode to the installed versionCode, and updates only the emulators that are behind. Edit ONE entry to ship ONE emulator. Values below were extracted from the APKs in /Apps on 2026-06-18. APK urls resolve once you run publish-emulators.sh. See README.md.",
+  "emulators": [
+    {
+      "id": "retroarch",
+      "package": "com.retroarch.aarch64",
+      "blessedVersionCode": 1763607214,
+      "versionName": "1.22.2_GIT",
+      "url": "https://github.com/gamecove/companion-releases/releases/download/retroarch-1763607214/retroarch.apk",
+      "sha256": "7bd5d208dfe93cc8e2ea6c04608948ce1a045980f160a58ca2d0993aa20ad213",
+      "signerSha256": "d7a5eab30902c9b2775af6fb4eac2d294a64634fb47dd1382bc3ac5bf669982e",
+      "minAppVersion": 0,
+      "mandatory": false,
+      "notes": "Initial blessed build"
+    },
+    {
+      "id": "dolphin",
+      "package": "org.dolphinemu.dolphinemu",
+      "blessedVersionCode": 42460,
+      "versionName": "2603a",
+      "url": "https://github.com/gamecove/companion-releases/releases/download/dolphin-42460/dolphin.apk",
+      "sha256": "c7cc165446e247ad1ea6cfe6308d74ca304d645160734b9169df62ebaba3e7ef",
+      "signerSha256": "8e7556d64ce8f7f15e36c4b3380aab0e326431146f9b26d2adee35326951fcab",
+      "minAppVersion": 0,
+      "mandatory": false,
+      "notes": "Initial blessed build"
+    },
+    {
+      "id": "duckstation",
+      "package": "com.github.stenzek.duckstation",
+      "blessedVersionCode": 5080,
+      "versionName": "0.1-5494",
+      "url": "https://github.com/gamecove/companion-releases/releases/download/duckstation-5080/duckstation.apk",
+      "sha256": "3007c5371011ca0c641ede66a9441b8c609f3bd7d74ac05ffb056c8bb30e70dd",
+      "signerSha256": "a6357957d296b3b03edeb62da317cb347ecde63b6577977ffcbfe0d9a6975450",
+      "minAppVersion": 0,
+      "mandatory": false,
+      "notes": "Initial blessed build"
+    },
+    {
+      "id": "flycast",
+      "package": "com.flycast.emulator",
+      "blessedVersionCode": 2942,
+      "versionName": "v2.6",
+      "url": "https://github.com/gamecove/companion-releases/releases/download/flycast-2942/flycast.apk",
+      "sha256": "b556c034af1f9bd4f4d04ba30a0632c39775289a5ea363472531a3a299074cd4",
+      "signerSha256": "0774794c54c7e463004754e2caba432a2057d917e64c5e24460606a7471b1395",
+      "minAppVersion": 0,
+      "mandatory": false,
+      "notes": "Initial blessed build"
+    },
+    {
+      "id": "citra",
+      "package": "org.citra.emu",
+      "blessedVersionCode": 3932,
+      "versionName": "3eb22034a",
+      "url": "https://github.com/gamecove/companion-releases/releases/download/citra-3932/citra.apk",
+      "sha256": "00ae1fca3e5831cb383ad64a31cc0e9d4213f89296803ec1b733b5feeb82bba4",
+      "signerSha256": "5ebda360d963001a31b3a062b6151f7d38345d8da49540e74895825ed0ca5e1a",
+      "minAppVersion": 0,
+      "mandatory": false,
+      "notes": "Citra MMJ"
+    },
+    {
+      "id": "eden",
+      "package": "dev.eden.eden_emulator",
+      "blessedVersionCode": 32873047,
+      "versionName": "0.2.1",
+      "url": "https://github.com/gamecove/companion-releases/releases/download/eden-32873047/eden.apk",
+      "sha256": "befbf70b1a05715811fe092ef9cf71e6f1c1672008a6c5caa31d633e99615668",
+      "signerSha256": "7fca26483b2d1b3dc3e6d9bb836e2fee18f09dc644353befd2fce8606bd2a40a",
+      "minAppVersion": 0,
+      "mandatory": false,
+      "notes": "Initial blessed build"
+    },
+    {
+      "id": "melonds",
+      "package": "me.magnum.melonds.nightly",
+      "blessedVersionCode": 37,
+      "versionName": "Beta 1.10.0 (2e4bf31) NIGHTLY",
+      "url": "https://github.com/gamecove/companion-releases/releases/download/melonds-37/melonds.apk",
+      "sha256": "f352fa019245d53ed79ed9ec505519e72de2a23d9dd9ef8602211db5a69e6dbb",
+      "signerSha256": "0493bb8749289f0304cc868489dd68b930c19ccc4dce2da876bfe6b9bdbabebc",
+      "minAppVersion": 0,
+      "mandatory": false,
+      "notes": "Initial blessed build"
+    },
+    {
+      "id": "aethersx2",
+      "package": "xyz.aethersx2.tturnip",
+      "blessedVersionCode": 15269,
+      "versionName": "v2.2n-4248",
+      "url": "https://github.com/gamecove/companion-releases/releases/download/aethersx2-15269/aethersx2.apk",
+      "sha256": "80de062599c07fc3e0d7be2ec8094ea13c72b057fd6180138a0628bfafe4b9f5",
+      "signerSha256": "98a2fb33dde6d7bf47f7911dfb7618d69fd1d10b1cdc02f4ef910b3f17b48faf",
+      "minAppVersion": 0,
+      "mandatory": false,
+      "notes": "NetherSX2 (Turnip) build"
+    },
+    {
+      "id": "ppsspp",
+      "package": "org.ppsspp.ppsspp",
+      "blessedVersionCode": 114040000,
+      "versionName": "1.14.4",
+      "url": "https://github.com/gamecove/companion-releases/releases/download/ppsspp-114040000/ppsspp.apk",
+      "sha256": "1e2e0372ada4a61ca3019a16bd32301924c0be018875c8634f466a6e81816369",
+      "signerSha256": "d1766d6a91726841e9182ad50417c3f5e493cee4b1b7e3e675147b3059629def",
+      "minAppVersion": 0,
+      "mandatory": false,
+      "notes": "Initial blessed build"
+    },
+    {
+      "id": "m64plusfz",
+      "package": "org.mupen64plusae.v3.fzurita",
+      "blessedVersionCode": 328,
+      "versionName": "3.0.328 (beta)-free",
+      "url": "https://github.com/gamecove/companion-releases/releases/download/m64plusfz-328/m64plusfz.apk",
+      "sha256": "34549ad45f93c24c443c735e20f6e365407f476124d3ae4156c52628723b29a8",
+      "signerSha256": "1bce027ba4e92935b22176468754e0ce7bf79490ac825507e395265c12f5316d",
+      "minAppVersion": 0,
+      "mandatory": false,
+      "notes": "Initial blessed build"
+    },
+    {
+      "id": "esde",
+      "package": "org.es_de.frontend",
+      "blessedVersionCode": 58,
+      "versionName": "3.4.1-58",
+      "url": "https://github.com/gamecove/companion-releases/releases/download/esde-58/esde.apk",
+      "sha256": "4b8c06f1cf505945edd77f9b8fa523e8f580a13eaef1a02f0092390f3739b387",
+      "signerSha256": "b65c1a8f5e2f14bf2e9c4988183c83238f69d7c26bcbb15535099b5558a77705",
+      "minAppVersion": 0,
+      "mandatory": false,
+      "notes": "ES-DE frontend"
+    }
+  ]
+}

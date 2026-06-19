@@ -1,0 +1,5 @@
+# APKs are hosted in GitHub Releases (RetroArch alone is 175 MB, over GitHub's 100 MB
+# per-file limit). They are NOT committed to this repo. Only the manifests + README +
+# upload script are tracked.
+*.apk
+Thor/
