@@ -1,9 +1,8 @@
 {
-  "_comment": "App self-update manifest for the GameCove Companion app. Served via GitHub Pages and read by lib/config.dart updateBaseUrl. Forward-only: to undo a bad build, publish a HIGHER versionCode, never lower this one. The APK is a release asset signed with the field-device key.",
-  "versionCode": 10003,
-  "versionName": "1.0.3",
-  "url": "https://github.com/gamecovegp/companion-releases/releases/download/app-v1.0.3/app-release.apk",
-  "sha256": "98c5f9123adc2180eb58d654c6300d163c9be2653a6c1c8005687511c26f6c2e",
+  "versionCode": 10004,
+  "versionName": "1.0.4",
+  "url": "https://github.com/gamecovegp/companion-releases/releases/download/app-v1.0.4/app-release.apk",
+  "sha256": "659bb95c5a8eb564d632ea497b9d56a8f0c34fc898828568803dc12cc5e4447f",
   "minSupported": 0,
-  "notes": "Improved in-app guides + FAQ; device-owner lockdown."
+  "notes": "Release v1.0.4"
 }
