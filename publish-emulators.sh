@@ -22,6 +22,7 @@ rows=(
   "ppsspp|PPSSPP - PSP emulator_1.14.4_Apkpure.apk|114040000"
   "m64plusfz|M64Plus FZ Emulator_3.0.328 (beta)-free_Apkpure.apk|328"
   "esde|ES-DE v3.4.1-58.apk|58"
+  "steamlink|steamlink-1.3.31.apk|5000313"
 )
 
 tmp="$(mktemp -d)"

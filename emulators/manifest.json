@@ -132,6 +132,18 @@
       "minAppVersion": 0,
       "mandatory": false,
       "notes": "ES-DE frontend"
+    },
+    {
+      "id": "steamlink",
+      "package": "com.valvesoftware.steamlink",
+      "blessedVersionCode": 5000313,
+      "versionName": "1.3.31",
+      "url": "https://github.com/gamecovegp/companion-releases/releases/download/steamlink-5000313/steamlink.apk",
+      "sha256": "d2a49a855aacd9fe0583c4906b7d91732468410f40986c07aa49d633bf69b8ee",
+      "signerSha256": "5dff6b05761447a5bdf919ea88fc6fdf20d301e30b2315415c4d368ec0fbda45",
+      "minAppVersion": 0,
+      "mandatory": false,
+      "notes": "Steam Link — stream Steam games from a PC (not an emulator)"
     }
   ]
 }
