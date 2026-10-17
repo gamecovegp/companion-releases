@@ -1,8 +1,8 @@
 {
-  "versionCode": 10004,
-  "versionName": "1.0.4",
-  "url": "https://github.com/gamecovegp/companion-releases/releases/download/app-v1.0.4/app-release.apk",
-  "sha256": "659bb95c5a8eb564d632ea497b9d56a8f0c34fc898828568803dc12cc5e4447f",
+  "versionCode": 10005,
+  "versionName": "1.0.5",
+  "url": "https://github.com/gamecovegp/companion-releases/releases/download/app-v1.0.5/app-release.apk",
+  "sha256": "f37567b0952c3033cfb9c6225fa7baf596bb5e5473143ca851f50fc5585a06bf",
   "minSupported": 0,
-  "notes": "Release v1.0.4"
+  "notes": "Release v1.0.5"
 }
